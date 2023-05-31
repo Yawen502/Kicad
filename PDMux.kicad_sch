@@ -288,15 +288,6 @@
     (uuid 6644d7e0-158c-4c08-94e7-d0836dc1b8f2)
   )
 
-  (no_connect (at 149.86 71.12) (uuid 117816d9-e2e4-4939-bd26-fdd04f1100e2))
-  (no_connect (at 149.86 78.74) (uuid 39d151bc-0d90-46d2-a474-38982ffc574e))
-  (no_connect (at 149.86 76.2) (uuid 5a1c0d9f-899d-4ed1-bbda-1bd51fbd4112))
-  (no_connect (at 149.86 66.04) (uuid 835f6363-aa20-4e32-86ca-83b4088fb75d))
-  (no_connect (at 149.86 83.82) (uuid 91762a5f-2278-4287-a49e-76f15e89b79c))
-  (no_connect (at 149.86 73.66) (uuid a18d413d-d97f-4cf6-ae26-8bf4aa438db6))
-  (no_connect (at 149.86 81.28) (uuid dc1ebcaa-5c61-4cfc-b6d9-059cbed9e24b))
-  (no_connect (at 149.86 68.58) (uuid f6c0255f-b815-4171-969a-68eef8052e27))
-
   (wire (pts (xy 127 81.28) (xy 132.08 81.28))
     (stroke (width 0) (type default))
     (uuid 45a6405b-4b76-429b-99e8-d2b3a6ff0270)
@@ -314,50 +305,49 @@
     (uuid c6981196-9590-4620-848f-dc692c81535d)
   )
 
-  (label "p8" (at 149.86 83.82 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 2d10e85f-b83d-4c19-ba0a-f2b3a49490d0)
+  (hierarchical_label "P8" (shape input) (at 149.86 83.82 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1f28c91b-daab-40c7-9643-1792572e1d24)
   )
-  (label "p6" (at 149.86 78.74 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4fcecb26-df67-4f16-96a9-5a2df14ee9f9)
+  (hierarchical_label "P1" (shape input) (at 149.86 66.04 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 29f28923-6418-4f0d-a9d6-367e7a155ca1)
   )
-  (label "p3" (at 149.86 71.12 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b2e1143c-92c1-45ce-af8c-9c148db45986)
+  (hierarchical_label "P4" (shape input) (at 149.86 73.66 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 3549009f-dd4d-417d-a2db-c06967a4498f)
   )
-  (label "p1" (at 149.86 66.04 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c9e36add-81b9-4187-9c01-d4311a40dfb2)
-  )
-  (label "p2" (at 149.86 68.58 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d9fdcf25-3bd7-4518-9a22-b9dab3f9d77e)
-  )
-  (label "p7" (at 149.86 81.28 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e3c1a4bc-3974-4682-9cc9-fb319c5252d8)
-  )
-  (label "p4" (at 149.86 73.66 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f18fa4a9-4182-40f5-92c9-09e18048f2cc)
-  )
-  (label "p5" (at 149.86 76.2 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fd25a363-0cd0-4acd-8db0-16bb52d81c96)
-  )
-
   (hierarchical_label "Out" (shape input) (at 132.08 66.04 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4ead6a19-1bbb-40c0-b958-b02a3923f10f)
+  )
+  (hierarchical_label "P6" (shape input) (at 149.86 78.74 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 52de874f-df18-4ead-a727-2052f923b32d)
   )
   (hierarchical_label "SelB" (shape input) (at 132.08 73.66 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6c1bdef7-9c0e-4ae6-a7c9-803a4f67cdc1)
   )
+  (hierarchical_label "P2" (shape input) (at 149.86 68.58 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 773d6dc9-3f4a-46cf-bbbd-babdaa121ed4)
+  )
+  (hierarchical_label "P3" (shape input) (at 149.86 71.12 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8db28408-98b8-4f67-b825-94af61d8fb3c)
+  )
   (hierarchical_label "SelC" (shape input) (at 132.08 76.2 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e8fc307f-30a3-4451-a25c-7f113f3e900c)
+  )
+  (hierarchical_label "P5" (shape input) (at 149.86 76.2 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ed6e108f-5e23-4a95-b136-cc2a8f9d1b3b)
+  )
+  (hierarchical_label "P7" (shape input) (at 149.86 81.28 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f2e4180e-f83a-4372-bebb-e324277cab9f)
   )
   (hierarchical_label "SelA" (shape input) (at 132.08 71.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -381,14 +371,14 @@
     )
     (pin "1" (uuid 8bea4040-d5ad-44bf-803c-f326a80abc0d))
     (instances
-      (project "PhotodiodeAmplifier"
+      (project "photodiode_jasmine"
         (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/b9a89400-fc06-46b6-8173-b9553cd61417"
           (reference "#PWR017") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/6cafae03-fb65-40f3-b852-e1c3eef95172"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/02f7a5ed-5fd6-4cff-bcce-9d14e5f35da8"
           (reference "#PWR07") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/5121ba2a-698e-431a-bcf4-ba0f14443f9e"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/7d1757ba-3e1c-4fc2-b381-98c6d2684040"
           (reference "#PWR012") (unit 1)
         )
       )
@@ -412,14 +402,14 @@
     )
     (pin "1" (uuid 7d2612be-a255-44e2-b3f0-13bf7102dbb1))
     (instances
-      (project "PhotodiodeAmplifier"
+      (project "photodiode_jasmine"
         (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/b9a89400-fc06-46b6-8173-b9553cd61417"
           (reference "#PWR018") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/6cafae03-fb65-40f3-b852-e1c3eef95172"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/02f7a5ed-5fd6-4cff-bcce-9d14e5f35da8"
           (reference "#PWR08") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/5121ba2a-698e-431a-bcf4-ba0f14443f9e"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/7d1757ba-3e1c-4fc2-b381-98c6d2684040"
           (reference "#PWR013") (unit 1)
         )
       )
@@ -429,7 +419,7 @@
   (symbol (lib_id "74xx:74HCT4051") (at 139.7 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cdae9f2-6f2a-42e8-a23c-af743a1018ca)
-    (property "Reference" "U7" (at 141.6559 59.69 0)
+    (property "Reference" "U3" (at 141.6559 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HCT4051" (at 141.6559 62.23 0)
@@ -458,14 +448,14 @@
     (pin "8" (uuid 90e659d1-243d-44b8-8d5f-be4806bdaefe))
     (pin "9" (uuid 9ad11f5e-f085-480c-9383-751f17163da5))
     (instances
-      (project "PhotodiodeAmplifier"
+      (project "photodiode_jasmine"
         (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/b9a89400-fc06-46b6-8173-b9553cd61417"
           (reference "U3") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/6cafae03-fb65-40f3-b852-e1c3eef95172"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/02f7a5ed-5fd6-4cff-bcce-9d14e5f35da8"
           (reference "U1") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/5121ba2a-698e-431a-bcf4-ba0f14443f9e"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/7d1757ba-3e1c-4fc2-b381-98c6d2684040"
           (reference "U2") (unit 1)
         )
       )
@@ -489,14 +479,14 @@
     )
     (pin "1" (uuid f5f33c11-ab6d-4a26-bdec-4a6357426126))
     (instances
-      (project "PhotodiodeAmplifier"
+      (project "photodiode_jasmine"
         (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/b9a89400-fc06-46b6-8173-b9553cd61417"
           (reference "#PWR021") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/6cafae03-fb65-40f3-b852-e1c3eef95172"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/02f7a5ed-5fd6-4cff-bcce-9d14e5f35da8"
           (reference "#PWR011") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/5121ba2a-698e-431a-bcf4-ba0f14443f9e"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/7d1757ba-3e1c-4fc2-b381-98c6d2684040"
           (reference "#PWR016") (unit 1)
         )
       )
@@ -521,17 +511,17 @@
     (pin "1" (uuid e83f2f9b-ff61-407e-8333-fcfc96882e95))
     (pin "2" (uuid 8356789e-4fc1-4d39-840d-e2764ae91c82))
     (instances
-      (project "PhotodiodeAmplifier"
+      (project "photodiode_jasmine"
         (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3"
           (reference "C3") (unit 1)
         )
         (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/b9a89400-fc06-46b6-8173-b9553cd61417"
           (reference "C3") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/6cafae03-fb65-40f3-b852-e1c3eef95172"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/02f7a5ed-5fd6-4cff-bcce-9d14e5f35da8"
           (reference "C1") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/5121ba2a-698e-431a-bcf4-ba0f14443f9e"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/7d1757ba-3e1c-4fc2-b381-98c6d2684040"
           (reference "C2") (unit 1)
         )
       )
@@ -555,14 +545,14 @@
     )
     (pin "1" (uuid d5e4235d-b9c4-4917-9bd7-eeefacf7c5d1))
     (instances
-      (project "PhotodiodeAmplifier"
+      (project "photodiode_jasmine"
         (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/b9a89400-fc06-46b6-8173-b9553cd61417"
           (reference "#PWR020") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/6cafae03-fb65-40f3-b852-e1c3eef95172"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/02f7a5ed-5fd6-4cff-bcce-9d14e5f35da8"
           (reference "#PWR010") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/5121ba2a-698e-431a-bcf4-ba0f14443f9e"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/7d1757ba-3e1c-4fc2-b381-98c6d2684040"
           (reference "#PWR015") (unit 1)
         )
       )
@@ -586,14 +576,14 @@
     )
     (pin "1" (uuid 1711e543-b956-47d7-8552-473aa54e779c))
     (instances
-      (project "PhotodiodeAmplifier"
+      (project "photodiode_jasmine"
         (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/b9a89400-fc06-46b6-8173-b9553cd61417"
           (reference "#PWR019") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/6cafae03-fb65-40f3-b852-e1c3eef95172"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/02f7a5ed-5fd6-4cff-bcce-9d14e5f35da8"
           (reference "#PWR09") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/5121ba2a-698e-431a-bcf4-ba0f14443f9e"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/7d1757ba-3e1c-4fc2-b381-98c6d2684040"
           (reference "#PWR014") (unit 1)
         )
       )
@@ -618,14 +608,14 @@
     (pin "1" (uuid 96dec3c5-5a5c-42f6-bfd0-55a3cd1e9442))
     (pin "2" (uuid e830a7d1-b1e8-4b96-8ada-2d4cec20260b))
     (instances
-      (project "PhotodiodeAmplifier"
+      (project "photodiode_jasmine"
         (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/b9a89400-fc06-46b6-8173-b9553cd61417"
           (reference "R3") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/6cafae03-fb65-40f3-b852-e1c3eef95172"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/02f7a5ed-5fd6-4cff-bcce-9d14e5f35da8"
           (reference "R1") (unit 1)
         )
-        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/5121ba2a-698e-431a-bcf4-ba0f14443f9e"
+        (path "/733e9294-e088-4082-934a-063f4ef007c2/827b7f4c-5327-4808-a7a4-ad3ee80b03f3/7d1757ba-3e1c-4fc2-b381-98c6d2684040"
           (reference "R2") (unit 1)
         )
       )
