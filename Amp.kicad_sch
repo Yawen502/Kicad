@@ -841,7 +841,7 @@
     (property "Value" "0.1u" (at 141.351 91.4473 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 139.3952 93.98 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" (at 139.3952 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 90.17 0)
